@@ -1,4 +1,24 @@
-.linav {
-    display: inline;
-    padding: 10px
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Individual Navbar Buttons */
+nav>ul>li {
+    display: inline
+}
+
+nav {
+    display: flex;
+    padding: 0.75rem;
+    background-color:grey;
+}
+.navlink {
+    padding: 1.25rem;
+    font-size: 20px;
+    text-decoration: none;
+    color: black
+}
+.navlink:hover {
+    background-color: dimgray;
 }
